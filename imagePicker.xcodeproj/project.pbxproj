@@ -156,14 +156,17 @@
 		46366B8C1B7F9DE000A9AADF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Udacity;
 				TargetAttributes = {
 					46366B931B7F9DE000A9AADF = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
 					};
 					46366BA81B7F9DE000A9AADF = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
 						TestTargetID = 46366B931B7F9DE000A9AADF;
 					};
 				};
@@ -343,6 +346,7 @@
 				INFOPLIST_FILE = imagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -353,6 +357,7 @@
 				INFOPLIST_FILE = imagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -371,6 +376,7 @@
 				INFOPLIST_FILE = imagePickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imagePicker.app/imagePicker";
 			};
 			name = Debug;
@@ -386,6 +392,7 @@
 				INFOPLIST_FILE = imagePickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imagePicker.app/imagePicker";
 			};
 			name = Release;
@@ -409,6 +416,7 @@
 				46366BB51B7F9DE000A9AADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46366BB61B7F9DE000A9AADF /* Build configuration list for PBXNativeTarget "imagePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +425,7 @@
 				46366BB81B7F9DE000A9AADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
